@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SuperCarros.BO.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="AddVehicle">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Price" Type="decimal" Precision="22" Scale="2" />
+    <Property Name="Year" Type="nchar" MaxLength="4" />
+    <Property Name="Brand" Type="varchar" MaxLength="50" />
+    <Property Name="Model" Type="varchar" MaxLength="50" />
+    <Property Name="Engine" Type="varchar" MaxLength="50" />
+    <Property Name="Transmission" Type="varchar" MaxLength="50" />
+    <Property Name="Color" Type="varchar" MaxLength="50" />
+    <Property Name="Description" Type="varchar" MaxLength="1000" />
+    <Property Name="Location" Type="varchar" MaxLength="50" />
+    <Property Name="Seller Name" Type="varchar" MaxLength="50" />
+    <Property Name="Phone Number" Type="nchar" MaxLength="10" />
+    <Property Name="Picture" Type="varbinary(max)" />
+  </EntityType>
+  <EntityContainer Name="SuperCarrosBOStoreContainer">
+    <EntitySet Name="AddVehicle" EntityType="Self.AddVehicle" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

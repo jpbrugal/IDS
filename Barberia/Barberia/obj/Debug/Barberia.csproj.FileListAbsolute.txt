@@ -1,0 +1,11 @@
+D:\DS-II\Barberia\Barberia\bin\Debug\Barberia.exe.config
+D:\DS-II\Barberia\Barberia\bin\Debug\Barberia.exe
+D:\DS-II\Barberia\Barberia\bin\Debug\Barberia.pdb
+D:\DS-II\Barberia\Barberia\obj\Debug\Barberia.csproj.AssemblyReference.cache
+D:\DS-II\Barberia\Barberia\obj\Debug\Barberia.csproj.SuggestedBindingRedirects.cache
+D:\DS-II\Barberia\Barberia\obj\Debug\Barberia.Form1.resources
+D:\DS-II\Barberia\Barberia\obj\Debug\Barberia.Properties.Resources.resources
+D:\DS-II\Barberia\Barberia\obj\Debug\Barberia.csproj.GenerateResource.cache
+D:\DS-II\Barberia\Barberia\obj\Debug\Barberia.csproj.CoreCompileInputs.cache
+D:\DS-II\Barberia\Barberia\obj\Debug\Barberia.exe
+D:\DS-II\Barberia\Barberia\obj\Debug\Barberia.pdb
